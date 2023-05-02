@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "publish": "dotenv npm publish --access public --registry=https://npm.pkg.github.com"
   },
   "publishConfig": {
     "@nicklasdegnebolig:registry": "https://npm.pkg.github.com"
