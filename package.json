@@ -8,7 +8,7 @@
     "publish": "dotenv npm publish --access public --registry=https://npm.pkg.github.com"
   },
   "publishConfig": {
-    "@nicklasdegnebolig:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@nicklasdegnebolig"
   },
   "author": "",
   "license": "ISC"
